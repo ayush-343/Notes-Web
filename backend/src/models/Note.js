@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 // 1 - create a schema
-// 2 - create a model based off of that schema 
+// 2 - create a model based off of that schema
 
 const noteSchema = new mongoose.Schema({
     title: {
@@ -9,7 +9,7 @@ const noteSchema = new mongoose.Schema({
         required: true,
 
     },
-    constant: {
+    content: {
         type: String,
         required: true,
     },
@@ -17,6 +17,6 @@ const noteSchema = new mongoose.Schema({
 }, { timestamps: true } // createdAt, updatedAt
 );
 
-const Note = mongoose.model('Note', noteSchema)
+const Note = mongoose.model("Note", noteSchema)
 
 export default Note;

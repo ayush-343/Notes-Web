@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Smooth theme transition */
+html,
+body,
+[data-theme],
+[class*="bg-"],
+[class*="text-"],
+[class*="border-"] {
+  transition: background 0.5s, background-color 0.5s, color 0.5s,
+    border-color 0.5s, box-shadow 0.5s;
+}

@@ -11,4 +11,3 @@ export default {
     themes: ["retro","forest"] //retor - Light mode , forest - Dark mode
   }
 }
-

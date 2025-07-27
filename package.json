@@ -1,0 +1,22 @@
+{
+  "name": "note-taking-web",
+  "version": "1.0.0",
+  "description": "A simple and intuitive notes-taking web application built with **React.js**. This app allows users to create, view, update, and delete notes in a clean and minimal interface. Ideal for daily planning, journaling, or organizing thoughts on the go.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayush-343/Notes-Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ayush-343/Notes-Web/issues"
+  },
+  "homepage": "https://github.com/ayush-343/Notes-Web#readme"
+}

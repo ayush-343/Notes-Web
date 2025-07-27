@@ -18,7 +18,7 @@ const Navbar = ({ theme, setTheme }) => {
         <div className="flex items-center justify-between">
           <h1 className="text-3xl font-bold font-mono tracking-tight">
             <Link to="/" className="">
-              ThinkBoard
+              Notelō
             </Link>
           </h1>
           <div className="flex items-center gap-11">
